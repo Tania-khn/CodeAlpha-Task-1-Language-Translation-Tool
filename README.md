@@ -27,12 +27,19 @@ Node.js 18+ or Bun
 npm or bun package manager
 ## Installation
 Extract the zip file
-Open the folder in VSCode
+
+## Open the folder in VSCode
+
 Open terminal (Ctrl + `)
-**npm install**
-Running the App
-**npm run dev**
-Open http://localhost:3000 in your browser.
+
+## **npm install**
+
+## Running the App
+
+## **npm run dev**
+
+## Open http://localhost:3000 in your browser.
+
 ## Project Structure
 ├── src/
 │   ├── app/
