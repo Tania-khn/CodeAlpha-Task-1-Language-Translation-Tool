@@ -5,3 +5,141 @@
 
 ○ Compiling / ...
  GET / 200 in 12.2s (next.js: 11.7s, application-code: 566ms)
+⨯ ./node_modules/react-remove-scroll/dist/es2015/UI.js:4:1
+Module not found: Can't resolve 'use-callback-ref'
+  [90m2 |[0m [36mimport[0m * [36mas[0m [33mReact[0m [36mfrom[0m [32m'react'[0m;
+  [90m3 |[0m [36mimport[0m { fullWidthClassName, zeroRightClassName } [36mfrom[0m [32m'react-remove-scroll-bar/constants'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { useMergeRefs } [36mfrom[0m [32m'use-callback-ref'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { effectCar } [36mfrom[0m [32m'./medium'[0m;
+  [90m6 |[0m [36mvar[0m nothing = [36mfunction[0m () {
+  [90m7 |[0m     [36mreturn[0m;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/react-remove-scroll/dist/es2015/UI.js [Client Component Browser]
+    ./node_modules/react-remove-scroll/dist/es2015/Combination.js [Client Component Browser]
+    ./node_modules/@radix-ui/react-select/dist/index.mjs [Client Component Browser]
+    ./src/components/ui/select.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/react-remove-scroll/dist/es2015/UI.js [Client Component SSR]
+    ./node_modules/react-remove-scroll/dist/es2015/Combination.js [Client Component SSR]
+    ./node_modules/@radix-ui/react-select/dist/index.mjs [Client Component SSR]
+    ./src/components/ui/select.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/react-remove-scroll/dist/es2015/UI.js:4:1
+Module not found: Can't resolve 'use-callback-ref'
+  [90m2 |[0m [36mimport[0m * [36mas[0m [33mReact[0m [36mfrom[0m [32m'react'[0m;
+  [90m3 |[0m [36mimport[0m { fullWidthClassName, zeroRightClassName } [36mfrom[0m [32m'react-remove-scroll-bar/constants'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { useMergeRefs } [36mfrom[0m [32m'use-callback-ref'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { effectCar } [36mfrom[0m [32m'./medium'[0m;
+  [90m6 |[0m [36mvar[0m nothing = [36mfunction[0m () {
+  [90m7 |[0m     [36mreturn[0m;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/react-remove-scroll/dist/es2015/UI.js [Client Component Browser]
+    ./node_modules/react-remove-scroll/dist/es2015/Combination.js [Client Component Browser]
+    ./node_modules/@radix-ui/react-select/dist/index.mjs [Client Component Browser]
+    ./src/components/ui/select.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/react-remove-scroll/dist/es2015/UI.js [Client Component SSR]
+    ./node_modules/react-remove-scroll/dist/es2015/Combination.js [Client Component SSR]
+    ./node_modules/@radix-ui/react-select/dist/index.mjs [Client Component SSR]
+    ./src/components/ui/select.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/react-remove-scroll/dist/es2015/UI.js:4:1
+Module not found: Can't resolve 'use-callback-ref'
+  [90m2 |[0m [36mimport[0m * [36mas[0m [33mReact[0m [36mfrom[0m [32m'react'[0m;
+  [90m3 |[0m [36mimport[0m { fullWidthClassName, zeroRightClassName } [36mfrom[0m [32m'react-remove-scroll-bar/constants'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { useMergeRefs } [36mfrom[0m [32m'use-callback-ref'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { effectCar } [36mfrom[0m [32m'./medium'[0m;
+  [90m6 |[0m [36mvar[0m nothing = [36mfunction[0m () {
+  [90m7 |[0m     [36mreturn[0m;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/react-remove-scroll/dist/es2015/UI.js [Client Component Browser]
+    ./node_modules/react-remove-scroll/dist/es2015/Combination.js [Client Component Browser]
+    ./node_modules/@radix-ui/react-select/dist/index.mjs [Client Component Browser]
+    ./src/components/ui/select.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/react-remove-scroll/dist/es2015/UI.js [Client Component SSR]
+    ./node_modules/react-remove-scroll/dist/es2015/Combination.js [Client Component SSR]
+    ./node_modules/@radix-ui/react-select/dist/index.mjs [Client Component SSR]
+    ./src/components/ui/select.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/react-remove-scroll/dist/es2015/UI.js:4:1
+Module not found: Can't resolve 'use-callback-ref'
+  [90m2 |[0m [36mimport[0m * [36mas[0m [33mReact[0m [36mfrom[0m [32m'react'[0m;
+  [90m3 |[0m [36mimport[0m { fullWidthClassName, zeroRightClassName } [36mfrom[0m [32m'react-remove-scroll-bar/constants'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { useMergeRefs } [36mfrom[0m [32m'use-callback-ref'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { effectCar } [36mfrom[0m [32m'./medium'[0m;
+  [90m6 |[0m [36mvar[0m nothing = [36mfunction[0m () {
+  [90m7 |[0m     [36mreturn[0m;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/react-remove-scroll/dist/es2015/UI.js [Client Component Browser]
+    ./node_modules/react-remove-scroll/dist/es2015/Combination.js [Client Component Browser]
+    ./node_modules/@radix-ui/react-select/dist/index.mjs [Client Component Browser]
+    ./src/components/ui/select.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/react-remove-scroll/dist/es2015/UI.js [Client Component SSR]
+    ./node_modules/react-remove-scroll/dist/es2015/Combination.js [Client Component SSR]
+    ./node_modules/@radix-ui/react-select/dist/index.mjs [Client Component SSR]
+    ./src/components/ui/select.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+Error: Turbopack build failed with 1 errors:
+./src/app
+Error: Next.js inferred your workspace root, but it may not be correct.
+    We couldn't find the Next.js package (next/package.json) from the project directory: /Users/mac/Desktop/translate-better-with-tania-source/src/app
+     To fix this, set turbopack.root in your Next.js config, or ensure the Next.js package is resolvable from this directory.
+    Note: For security and performance reasons, files outside of the project directory will not be compiled.
+    See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+
+    at ignore-listed frames
+[?25h
